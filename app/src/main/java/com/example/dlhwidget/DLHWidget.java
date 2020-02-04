@@ -252,6 +252,7 @@ public class DLHWidget extends AppWidgetProvider {
             windDir_wid = windDir;
 
 
+            
             //https://stackoverflow.com/questions/3455123/programmatically-update-widget-from-activity-service-receiver
             Intent intent = new Intent(ctx, DLHWidget.class);
             intent.setAction("android.appwidget.action.APPWIDGET_UPDATE");
